@@ -24,6 +24,7 @@ const FormCss = styled.form`
         font-weight: bold;
         border-color: var(--green);
         border-bottom: 3px solid #4a8461;
+        cursor: pointer;
     }
 `;
 
