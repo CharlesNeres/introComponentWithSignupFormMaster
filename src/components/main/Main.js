@@ -1,13 +1,14 @@
 import React from 'react';
-import Advertising from '../advertising/Advertising';
 import Form from '../form/Form';
 import MainCss from './MainCss';
+import Footer from '../footer/Footer';
 
 class Main extends React.Component{
     render(){
         return(
             <MainCss>                
                 <Form />                
+                <Footer />
             </MainCss>
         )
     }

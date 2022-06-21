@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 const FormCss = styled.form`
-    margin-top: 2em;
+    
     div{
         margin-bottom: 1em;
     }
 
     input{
-        border: 1px solid var(--grayish-blue);
+        border: 1px solid #d6d4e7;
         width: 100%;
         padding: 1em;
         border-radius: .4em;
