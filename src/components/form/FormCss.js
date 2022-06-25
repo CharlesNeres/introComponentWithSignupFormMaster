@@ -17,9 +17,12 @@ const FormCss = styled.form`
         font-weight: bold;
     }
 
-    input[type=submit]{
+    button{
         text-transform: uppercase;
         background-color: var(--green);
+        border-radius: .4em;
+        width: 100%;
+        padding: 1em;
         color: #fff;
         font-weight: bold;
         border-color: var(--green);
