@@ -1,3 +1,49 @@
-.App{
+.app{
   padding: 1.5em;
+}
+
+@media screen and (min-width: 800px) {
+  .app{
+    padding: 7em;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+  }
+
+  .app header{
+    float: left;
+    width: 40%;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+  .app header h1{
+    margin-bottom: .5em;
+    font-size: 200%;
+    line-height: 1.2em;
+    padding: 0;
+  }
+
+  .app .container {
+    float: right;
+    width: 45%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+
+  .app .container section{
+    margin-top: 0;
+    padding: .8em 4em ;
+  }
 }

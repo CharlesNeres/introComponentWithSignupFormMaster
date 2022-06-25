@@ -5,10 +5,12 @@ import Advertising from './components/advertising/Advertising';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <Advertising />
-      <Main />
+      <div className="container">
+        <Advertising />
+        <Main />
+      </div>
     </div>
   );
 }
